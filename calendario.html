@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>calendario</title>
+<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<div class="menu">
+    <input type="checkbox" id="abrir-cerrar" name="abrir-cerrar" value="">
+    <label for="abrir-cerrar">&#9776; <span class="abrir"> </span><span class="cerrar"></span></label>
+    <div id="sidebar" class="sidebar">
+        <ul class="menu">
+            <li><a href="pagina1.htm">home</a></li>
+            <li><a href="cadena.html">cadena</a></li>
+            <li><a href="consumo.html">consumo</a></li>
+            <li><a href="calendario.html">planifica</a></li>
+            <li><a href="clima.html">clima</a></li>
+        </ul>
+    </div>
+    </div>
+<body>
+    <h1 class="title">Calendario</h1>
+
+<div class="calendar">
+    <div class="calendar__info">
+        <div class="calendar__prev" id="prev-month">&#9664;</div>
+        <div class="calendar__month" id="month"></div>
+        <div class="calendar__year" id="year"></div>
+        <div class="calendar__next" id="next-month">&#9654;</div>
+    </div>
+
+    <div class="calendar__week">
+        <div class="calendar__day calendar__item">Mon</div>
+        <div class="calendar__day calendar__item">Tue</div>
+        <div class="calendar__day calendar__item">Wed</div>
+        <div class="calendar__day calendar__item">Thu</div>
+        <div class="calendar__day calendar__item">Fri</div>
+        <div class="calendar__day calendar__item">Sat</div>
+        <div class="calendar__day calendar__item">Sun</div>
+    </div>
+
+    <div class="calendar__dates" id="dates"></div>
+</div>
+
+<script src="scripts-dist.js"></script>
+
+   
+</body>
+</html> 
